@@ -1,2 +1,2 @@
-# maxueying..github.io
+# maxueying.github.io
 have a gteat time
