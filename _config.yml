@@ -1,3 +1,5 @@
+theme: jekyll-theme-merlot
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -23,20 +25,20 @@ zhihu_username: molingmiao
 #linkedIn_username: 
 #dribbble_username:
 
-description_footer: ½ö½öÊÇ¸ö¼ÇÂ¼ÓÃµÄ²©¿Í£¡
+description_footer: ä»…ä»…æ˜¯ä¸ªè®°å½•ç”¨çš„åšå®¢ï¼
 
 # comments
 # two ways to comment, only choose one, and use your own short name
-# Á½ÖÖÆÀÂÛ²å¼ş£¬Ñ¡Ò»¸ö¾ÍºÃÁË£¬Ê¹ÓÃ×Ô¼ºµÄ short_name
+# ä¸¤ç§è¯„è®ºæ’ä»¶ï¼Œé€‰ä¸€ä¸ªå°±å¥½äº†ï¼Œä½¿ç”¨è‡ªå·±çš„ short_name
 #duoshuo_shortname: #hygblog
 #disqus_shortname: molingmiao
 
-# statistic analysis Í³¼Æ´úÂë
-# °Ù¶ÈÍ³¼Æ id£¬½«Í³¼Æ´úÂëÌæ»»Îª×Ô¼ºµÄ°Ù¶ÈÍ³¼Æid£¬¼´
+# statistic analysis ç»Ÿè®¡ä»£ç 
+# ç™¾åº¦ç»Ÿè®¡ idï¼Œå°†ç»Ÿè®¡ä»£ç æ›¿æ¢ä¸ºè‡ªå·±çš„ç™¾åº¦ç»Ÿè®¡idï¼Œå³
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
-# xxxxx×Ö·û´®
+# xxxxxå­—ç¬¦ä¸²
 #baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-#google_analytics_id: UA-72449510-4 # google ·ÖÎö×·×Ùid
+#google_analytics_id: UA-72449510-4 # google åˆ†æè¿½è¸ªid
 
 # Build settings
 markdown: kramdown
@@ -58,9 +60,3 @@ excerpt_separator: "\n\n\n\n"
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
-
-
-
-
-
-theme: jekyll-theme-merlot
