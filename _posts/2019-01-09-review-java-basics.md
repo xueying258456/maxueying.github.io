@@ -72,8 +72,8 @@ author: MLM
 
 Δ 继承  （Inheritance）
 
-概念： 使得子类具有弗雷的各种属性和方法，而不需要再次编写相同的代码。
-特点： 在子类继承父类的同时，可以重新定义某些属性，并重写某些方法，时期获得与父类不同的功能。
+概念： 使得子类具有父类的各种属性和方法，而不需要再次编写相同的代码。
+特点： 在子类继承父类的同时，可以重新定义某些属性，并重写某些方法，使其获得与父类不同的功能。
 
 概念： 
 
@@ -115,6 +115,195 @@ public class animal {
 	}
 }
 ```
+
+## Java程序的分类
+
+> Java程序按照运行方式可以分为两种类型： Java应用程序`Application`和Java小程序`Applet`。
+
+### Java应用程序
+
+> 它是独立完整的程序，它可以在Java平台上独立运行，通常在命令行使用独立的解释器。
+
+* HelloWordl.java：
+```
+public class HelloWorld //类名
+{
+	public static void main(String args[]){
+		System.out.println("Hello,World!");
+	}
+}
+```
+
+* 命令行运行结果
+```
+D:\github\molingmiao.github.io\test>javac HelloWorld.java
+
+D:\github\molingmiao.github.io\test>java HelloWorld
+Hello,World!
+
+D:\github\molingmiao.github.io\test>
+```
+
+
+### Java小程序Applet(不用深挖，这坑已经很少人用了)
+
+> 它是一种嵌入在HTML网页文档中的Java程序，不能独立运行，也没有main()方法，必须通过网页浏览器来运行，因此称为小程序。
+
+
+* HelloApplet.java
+```
+import java.awt.Graphics;
+import java.applet.Applet;
+public class HelloApplet extends Applet{
+	public void paint(Graphics g){
+		g.drawString("Hello,Applet!",20,20);
+	}
+}
+```	
+* HelloApplet.html
+```
+<html>
+	<head>
+		<title>Applet对应的HTML</title>
+	</head>
+	<body>
+		<applet code="HelloApplet.class" width=200 height=100></applet>
+	</body>
+</html>
+```
+
+## Java程序的基本结构
+
+* package
+* import
+* public classDefinition
+* classDefinition
+* interfaceDefinition
+
+## Java程序开发环境
+
+* JDK `Java Development Kit` 是sun公司针对Java开发人员发布的免费软件开发工具包
+* JRE `Java Runtime Environment` Java运行时环境
+
+# 数据类型和基本语句
+
+## Java的基本语法
+
+### 标识符
+
+* 合法标识符的组成：数字、字母、下划线(_)或美元符号($)组成，而且还要求首位不能是数字。`区分大小写`
+
+### Java中的关键字和保留字
+
+> 关键字
+
+>> 	访问控制
+>>	private    protected    public
+>>
+>>	类,方法和变量修饰符
+>>	abstract    class    extends    final    implements    interface    native    new
+>>	static    strictfp    synchronized    transient    volatile
+>>    
+>>	程序控制
+>>	break    continue    return    do    while    if    else    for    instanceof    switch
+>>	case    default
+>>    
+>>	异常处理
+>>	try    cathc  finally  throw    throws
+>>
+>>	包相关
+>>	import    package
+>>    
+>>	基本类型
+>>	boolean    byte    char    double    float    int    long    short    null    true    false   enum
+>>
+>>	变量引用
+>>	super    this    void
+>>    
+
+> 保留字
+
+>>	goto    const 
+
+### 变量
+
+* 概念： 在程序运行过程中其值可以变化的量，主要用于保存输入、输出和程序运行过程中的中间数据。`使用前要先声明，再使用`
+
+### 常量
+
+* 概念： 在程序运行的整个过程中保持其值不改变的量，用于 代表常数、便于程序的修改； 提高程序的可读性。`在声明前添加关键字final`
+
+### 语句块
+
+* 概念： 用一堆大括号包含的内容叫做语句块，语句块可以互相嵌套。
+
+### 注释
+
+* 概念： 帮助开发人员更好的理解程序的编写意图，有利于程序的修改和维护，提高程序的可读性。
+
+#### 单行注释
+
+* 格式：  //注释内容
+
+#### 块注释
+
+* 格式：  /\*注释内容\*/
+
+#### 文档注释
+
+* 格式：  /\*\*注释内容\*/
+  `文档注释是要写入Javadoc文档的，它将用来生成HTML格式的代码报告。`
+  `文档注释必须写在类、构造函数、方法等之前`
+
+## 运算符与表达式
+
+### 运算符
+
+#### 算术运算符
+
+* 单目： +`取正` -`取负` ++`自加1` --`自减1`
+* 双目： +`加` -`减` *`乘` /`除` %`求余`
+
+#### 关系运算符
+
+* ==`相等` !=`不等` >`大于` <`小于` >=`大于等于` <=`小于等于`  
+
+#### 逻辑运算符
+
+* &&/&`与` !`非` ||/|`或`
+
+#### 三元运算符
+
+* 格式： (表达式) ？ true处理区 : false处理区
+
+#### 位运算符
+
+* &(与): 两边操作数的位同时为1   ？ 1 : 0 ;
+* |(或): 两边操作数的位有一边为1 ？ 1 : 0 ;
+* ~(非): 0变1,1变0;
+* ^(异): 两边操作数的位不同时    ？ 1 : 0 ;
+
+#### 位移运算符
+
+* <<	带符号左移；
+* \>\>  带符号右移；
+* \>\>\>无符号右移；
+
+#### instanceof运算符
+
+* 双目运算符： A(对象) instanceof B(类) 
+* A是B类创建的对象 ？ true : false ;
+
+#### 赋值运算符
+
+* = , += , -= , *= , /= ,  %= , &= , ^= , |= , <<= , >>=
+* 左值与等号右边的值发生对应的运算后，赋给左值。
+
+### 表达式
+
+* 概念： 用运算符将操作数连接起来的符合Java规则的式子;
+
+## 数据类型
 
 
 
