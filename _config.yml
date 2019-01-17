@@ -8,24 +8,23 @@ theme: jekyll-theme-merlot
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: MLM
-brief-intro: Just a sad cat.
+title: MXY
+brief-intro: 石头剪刀布
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://molingmiao.github.io" # the base hostname & protocol for your site
+url: "maxueying.club" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 #twitter_username: 
 #facebook_username: 
-github_username:  molingmiao
-email: 280227653@qq.com
-weibo_username: 
-zhihu_username: molingmiao
+github_username:  maxueying
+email: 1139322214@qq.com
+weibo_username: MxyBliss
 #linkedIn_username: 
 #dribbble_username:
 
-description_footer: 仅仅是个记录用的博客！
+description_footer: 或许人生应该有些故事吧！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
