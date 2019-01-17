@@ -13,7 +13,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[马雪莹](https://github.com/xueying258456)
+* GitHub：[maxueying](https://github.com/xueying258456)
 * email：1139322214@qq.com
 * [CSDN](https://blog.csdn.net/weixin_37189727)
 * [codewars](https://www.codewars.com/dashboard)
