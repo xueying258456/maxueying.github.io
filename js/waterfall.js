@@ -23,7 +23,7 @@
 //     }, 
      {
       demo_link: '/page/textareahight.html',
-      img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
+      img_link: '/textarea.png',
       code_link: 'https://github.com/xueying258456/maxueying.github.io/tree/master/page',
       title: 'textarea 高度自适应',
       core_tech: 'jQuery BootStrap CSS3',
