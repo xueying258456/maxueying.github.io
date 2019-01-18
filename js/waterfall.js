@@ -24,7 +24,7 @@
      {
       demo_link: '/page/textareahight.html',
       img_link: '/textarea.png',
-      code_link: 'https://github.com/xueying258456/maxueying.github.io/tree/master/page',
+      code_link: 'https://github.com/xueying258456/maxueying.github.io/tree/master/page/textareahight.html',
       title: 'textarea 高度自适应',
       core_tech: 'jQuery BootStrap CSS3',
       description: '当字符输入达到行上限，输入框自动加一行显示。'
