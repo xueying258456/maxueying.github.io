@@ -23,7 +23,7 @@
 //     }, 
      {
       demo_link: '/page/textareahight.html',
-      img_link: '/textarea.png',
+      img_link: '/images/textarea.png',
       code_link: 'https://github.com/xueying258456/maxueying.github.io/tree/master/page/textareahight.html',
       title: 'textarea 高度自适应',
       core_tech: 'jQuery BootStrap CSS3',
@@ -38,63 +38,63 @@
       description: 'CSS3 动画效果，当页面滚动到指定距离时，header 区的背景色由透明变为蓝色。仿照了网站 <a target="_blank" href ="https://quorrajs.org/">https://quorrajs.org/</a> 的 Header 区动画效果。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/mask-fade-out/',
-      img_link: '/zhao.png',
+      img_link: '/images/zhao.png',
       code_link: 'https://github.com/Gaohaoyang/mask-fade-out',
       title: '遮罩层按指定路径缩小消失',
       core_tech: 'jQuery CSS',
       description: '使用 animate 方法，做到兼容 IE8。曾在联想服务官网上线3个月。'
     },  {
       demo_link: 'http://gaohaoyang.github.io/ife/task/task0001/work/Gaohaoyang/index.html',
-      img_link: '/module.png',
+      img_link: '/images/module.png',
       code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0001/work/Gaohaoyang',
       title: '个人博客模板',
       core_tech: 'HTML CSS',
       description: '完成百度前端学院的任务。深刻的理解了BFC、浮动、inline-block间距，多列布局等技术。'
     },{
       demo_link: 'http://gaohaoyang.github.io/ife/task/task0002/work/Gaohaoyang/index.html',
-      img_link: '/task2.png',
+      img_link: '/images/task2.png',
       code_link: 'https://github.com/Gaohaoyang/ife/tree/master/task/task0002/work/Gaohaoyang',
       title: '一些小的demo',
       core_tech: 'HTML CSS',
       description: '任务二的展示主页，里面包含五个小 demo。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/baidu-ife-practice/task0003/',
-      img_link: '/task3.png',
+      img_link: '/images/task3.png',
       code_link: 'https://github.com/Gaohaoyang/baidu-ife-practice/tree/master/task0003',
       title: 'ToDo 应用',
       core_tech: 'JavaScript LocalStorage',
       description: '任务三，ToDo 单页应用，主要使用了 LocalStorage 存储数据，使用 JSON 模拟了 3 张数据表。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/ToDo-WebApp/',
-      img_link: '/task3.png',
+      img_link: '/images/task3.png',
       code_link: 'https://github.com/Gaohaoyang/ToDo-WebApp',
       title: '优化ToDo 应用(移动端)',
       core_tech: 'JavaScript LocalStorage requireJS Sass Gulp XSS',
       description: '在任务三中，做了一个 PC 端的 ToDo 应用。任务四是将它优化，以适应移动端设备。'
     },{
       demo_link: 'http://gaohaoyang.github.io/ghost-button-css3/',
-      img_link: '/button.png',
+      img_link: '/images/button.png',
       code_link: 'https://github.com/Gaohaoyang/ghost-button-css3',
       title: 'Ghost Button 幽灵按钮',
       core_tech: 'CSS3',
       description: '使用 CSS3 中的旋转、缩放、过渡、动画等效果，制作出很酷的按钮效果。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/shadow-demo-css3',
-      img_link: '/shadow.png',
+      img_link: '/images/shadow.png',
       code_link: 'https://github.com/Gaohaoyang/shadow-demo-css3',
       title: 'CSS3 阴影特效',
       core_tech: 'CSS3',
       description: 'CSS3 中的阴影、旋转等效果，制作出曲边阴影和翘边阴影。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/learning-AngularJS/2-3-bookstore-add-sth-by-myself/',
-      img_link: '/angularJS.png',
+      img_link: '/images/angularJS.png',
       code_link: 'https://github.com/Gaohaoyang/learning-AngularJS/tree/master/2-3-bookstore-add-sth-by-myself',
       title: 'AngularJS 结合动画效果',
       core_tech: 'AngularJS CSS3',
       description: '使用 AngularJS 中的 ngAnimate 加 CSS3里面的一些旋转效果，做出页面切换的效果。'
     },  {
       demo_link: 'http://gaohaoyang.github.io/test/bootstrap-zhihu/',
-      img_link: '/zhihu.png',
+      img_link: '/images/zhihu.png',
       code_link: 'https://github.com/Gaohaoyang/test/tree/master/bootstrap-zhihu',
       title: '仿知乎页面',
       core_tech: 'HTML BootStrap',
