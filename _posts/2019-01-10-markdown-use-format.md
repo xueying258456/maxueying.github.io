@@ -9,7 +9,7 @@ author: Bliss
 * content
 {:toc}
 
-> **特别声明：本文及图片皆转自![博客园-凌云之翼](https://www.cnblogs.com/liugang-vip/p/6337580.html)，本人仅仅是进行内容的重新编辑。**
+> **特别声明：本文及图片皆转自[博客园-凌云之翼](https://www.cnblogs.com/liugang-vip/p/6337580.html)，本人仅仅是进行内容的重新编辑。**
 
 # 标题的几种写法：
 
@@ -40,7 +40,7 @@ author: Bliss
 
 ![转换工具](https://images2015.cnblogs.com/blog/600165/201701/600165-20170121172350078-1462814017.png)
 
-在线地址请看这里： ![markdown在线编辑](http://tool.oschina.net/markdown/)
+在线地址请看这里： [markdown在线编辑](http://tool.oschina.net/markdown/)
 
 # 列表
 
