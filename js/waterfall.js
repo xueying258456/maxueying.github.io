@@ -21,6 +21,14 @@
 //       core_tech: 'JavaScript',
 //       description: 'Fisher-Yates 洗牌算法动画。算法详情见 <a href ="https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/">这里</a>。'
 //     }, 
+     {
+      demo_link: '/page/textareahight.html',
+      img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
+      code_link: 'https://github.com/xueying258456/maxueying.github.io/tree/master/page',
+      title: 'textarea 高度自适应',
+      core_tech: 'jQuery BootStrap CSS3',
+      description: '当字符输入达到行上限，输入框自动加一行显示。'
+    },
     {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
       img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
