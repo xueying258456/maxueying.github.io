@@ -1,3 +1,16 @@
+---
+layout: post
+title:  "关键字"
+categories: 关键字
+tags: 关键字
+author: Mxy
+---
+
+* content
+{:toc}
+
+
+
 ## final 关键字
 
 **final关键字主要用在三个地方：变量、方法、类。**
