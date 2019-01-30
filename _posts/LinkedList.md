@@ -1,4 +1,17 @@
 
+---
+layout: post
+title:  "LinkedList"
+categories: LinkedList
+tags: LinkedList
+author: Mxy
+---
+
+* content
+{:toc}
+
+
+
 <!-- MarkdownTOC -->
 
 - [简介](#简介)
