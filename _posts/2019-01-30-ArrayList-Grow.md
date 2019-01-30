@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "ArrayList"
-categories: ArrayList
-tags: ArrayList
+title:  "ArrayList-Grow"
+categories: ArrayList-Grow
+tags: ArrayList-Grow
 author: Mxy
 ---
 
