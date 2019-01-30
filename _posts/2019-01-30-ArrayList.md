@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "ArrayList"
+categories: ArrayList
+tags: ArrayList
+author: Mxy
+---
+
+* content
+{:toc}
 
 <!-- MarkdownTOC -->
 
