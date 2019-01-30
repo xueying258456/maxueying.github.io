@@ -1,3 +1,16 @@
+---
+layout: post
+title:  "Java IO与NIO"
+categories: Java IO与NIO
+tags: Java IO与NIO
+author: Mxy
+---
+
+* content
+{:toc}
+
+
+
 <!-- MarkdownTOC -->
 
 - [IO流学习总结](#io流学习总结)
