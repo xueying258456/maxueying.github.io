@@ -1,3 +1,16 @@
+---
+layout: post
+title:  "synchronized"
+categories: synchronized
+tags: synchronized
+author: Mxy
+---
+
+* content
+{:toc}
+
+
+
 以下内容摘自我的 Gitchat ：[Java 程序员必备：并发知识系统总结](https://gitbook.cn/gitchat/activity/5bc2b6af56f0425673d299bb)，欢迎订阅！
 
 Github 地址：[https://github.com/Snailclimb/JavaGuide/edit/master/Java相关/synchronized.md](https://github.com/Snailclimb/JavaGuide/edit/master/Java相关/synchronized.md)
