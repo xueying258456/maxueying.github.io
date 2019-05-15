@@ -1,3 +1,16 @@
+---
+layout: post
+title:  "数据通信"
+categories: 数据通信
+tags: 数据通信
+author: Mxy
+---
+
+* content
+{:toc}
+
+
+
 > ## RPC
 
 **RPC（Remote Procedure Call）—远程过程调用** ，它是一种通过网络从远程计算机程序上请求服务，而不需要了解底层网络技术的协议。RPC协议假定某些传输协议的存在，如TCP或UDP，为通信程序之间携带信息数据。在OSI网络通信模型中，RPC跨越了传输层和应用层。RPC使得开发分布式程序就像开发本地程序一样简单。
